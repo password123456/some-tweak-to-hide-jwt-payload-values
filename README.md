@@ -73,7 +73,16 @@ Attempting to tamper with JWT tokens generated using this method requires access
 - Decoded UserID and Hashed Timestamp: 23243232|e27436b7393eb6c2fb4d5e2a508a9c5c
 
 - JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lc3RhbXAiOiIyMDI0LTAyLTI5IDA3OjQ2OjA4IiwidXNlcmlkIjoiVlZaY1VVRlRYMTRGT2tkRVVVRnBFVlpmVFd3S0VHa0xVeFVLYXd0SE9rQUFXMVJYREdZV1FBbz0ifQ.bM_6cBZHdXhMZjyefr6YO5n5X51SzXjyBUEzFiBaZ7Q
-- Decoded Token: {'timestamp': '2024-02-29 07:46:08', 'userid': 'VVZcUUFTX14FOkdEUUFpEVZfTWwKEGkLUxUKawtHOkAAW1RXDGYWQAo='}
+- Decoded JWT: {'timestamp': '2024-02-29 07:46:08', 'userid': 'VVZcUUFTX14FOkdEUUFpEVZfTWwKEGkLUxUKawtHOkAAW1RXDGYWQAo='}
+
+
+# run again
+- Decoded JWT: {'timestamp': '2024-02-29 08:16:36', 'userid': 'VVZcUUFTX14FaRNAVBRpRQcORmtWRGleVUtRZlYXaBZZCgYOWGlDR10='}
+- Decoded JWT: {'timestamp': '2024-02-29 08:16:51', 'userid': 'VVZcUUFTX14FZxMRVUdnEgJZEmxfRztRVUBabAsRZkdVVlJWWztGQVA='}
+- Decoded JWT: {'timestamp': '2024-02-29 08:17:01', 'userid': 'VVZcUUFTX14FbxYQUkM8RVRZEmkLRWsNUBYNb1sQPREFDFYKDmYRQV4='}
+- Decoded JWT: {'timestamp': '2024-02-29 08:17:09', 'userid': 'VVZcUUFTX14FbUNEVEVqEFlaTGoKQjxZBRULOlpGPUtSClALWD5GRAs='}
 ```
+
+![img](https://github.com/password123456/some-tweak-to-hide-jwt-payload-values/blob/main/jwt.png)
 
 
