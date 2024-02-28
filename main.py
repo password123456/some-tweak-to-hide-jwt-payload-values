@@ -78,7 +78,7 @@ def main():
     print("- Decoded UserID and Hashed Timestamp:", decoded_userid + "|" + hashed_timestamp)
     print("")
     print("- JWT Token:", jwt_token)
-    print("- Decoded Token:", decoded_token)
+    print("- Decoded JWT:", decoded_token)
 
 if __name__ == "__main__":
     main()
