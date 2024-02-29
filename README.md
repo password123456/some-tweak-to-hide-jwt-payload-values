@@ -58,6 +58,9 @@ For example, 'a': 'changing_random_value'
 
 Attempting to tamper with JWT tokens generated using this method requires access to both the JWT secret key and the XOR symmetric key used to create the UserID.
 
+# And...
+- If you find this helpful, please the **"star"**:star2: to support further improvements.
+
 # preview
 ```
 # python3 main.py
